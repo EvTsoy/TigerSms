@@ -11,7 +11,7 @@ class GetStatusHandler implements ActionHandler
 
     public function shouldExecute(string $action): bool
     {
-        return $action === 'getNumber';
+        return $action === 'getStatus';
     }
 
     public function execute(array $queryParams): string
